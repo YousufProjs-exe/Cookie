@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cifob1jcl1q22"
-path="res://.godot/imported/haven-logo-color.png-aad1fecf6f2d5fbbbca3105c1e2f4b42.ctex"
+uid="uid://4skng46qtbba"
+path="res://.godot/imported/ghost_walk.png-7ae66a55435fabb2707bc90b09af1137.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Home/haven-logo-color.png"
-dest_files=["res://.godot/imported/haven-logo-color.png-aad1fecf6f2d5fbbbca3105c1e2f4b42.ctex"]
+source_file="res://assets/ghost_walk.png"
+dest_files=["res://.godot/imported/ghost_walk.png-7ae66a55435fabb2707bc90b09af1137.ctex"]
 
 [params]
 

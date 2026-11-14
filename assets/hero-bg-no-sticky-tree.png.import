@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dj1cljptqvtou"
-path="res://.godot/imported/New Ghost Og.png-4751dc00b9005d49af9ec8bb2b42f0bd.ctex"
+uid="uid://5wil3lcrxawv"
+path="res://.godot/imported/hero-bg-no-sticky-tree.png-575bba1887473a796bffedcdcd534e3f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Home/New Ghost Og.png"
-dest_files=["res://.godot/imported/New Ghost Og.png-4751dc00b9005d49af9ec8bb2b42f0bd.ctex"]
+source_file="res://assets/hero-bg-no-sticky-tree.png"
+dest_files=["res://.godot/imported/hero-bg-no-sticky-tree.png-575bba1887473a796bffedcdcd534e3f.ctex"]
 
 [params]
 

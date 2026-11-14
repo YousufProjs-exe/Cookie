@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://c8d1ixbaqojn4" path="res://Main/rock-route-hem-hd-DTfXrVIh.png" id="3_liyct"]
 [ext_resource type="Texture2D" uid="uid://crftqtff18npv" path="res://Main/New Ghost Og.png" id="4_ib3t1"]
 [ext_resource type="Script" uid="uid://b3glabh3gh6aj" path="res://Main/new_ghost_og.gd" id="5_ib3t1"]
-[ext_resource type="Texture2D" uid="uid://cf0qvfywt82kn" path="res://Home/cat.png" id="5_liyct"]
+[ext_resource type="Texture2D" uid="uid://cf0qvfywt82kn" path="res://assets/cat.png" id="5_liyct"]
 [ext_resource type="Script" uid="uid://cjjdatcjh63kr" path="res://Main/cat.gd" id="6_ib3t1"]
 
 [node name="Node2D" type="Node2D" unique_id=342006584]

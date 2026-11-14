@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1nugf24701xh"
-path="res://.godot/imported/hedgehog.png-761d1d51db36de307e07c6649c0c9749.ctex"
+uid="uid://cf0qvfywt82kn"
+path="res://.godot/imported/cat.png-74418c656f64bad1813a4e0137c5108d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Home/hedgehog.png"
-dest_files=["res://.godot/imported/hedgehog.png-761d1d51db36de307e07c6649c0c9749.ctex"]
+source_file="res://assets/cat.png"
+dest_files=["res://.godot/imported/cat.png-74418c656f64bad1813a4e0137c5108d.ctex"]
 
 [params]
 

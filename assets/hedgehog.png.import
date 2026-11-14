@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5wil3lcrxawv"
-path="res://.godot/imported/hero-bg-no-sticky-tree.png-4bf6ee3f5b96c4cdfa84e5f1342403eb.ctex"
+uid="uid://1nugf24701xh"
+path="res://.godot/imported/hedgehog.png-faaa05cf009f404bad4c0351575fbeda.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Home/hero-bg-no-sticky-tree.png"
-dest_files=["res://.godot/imported/hero-bg-no-sticky-tree.png-4bf6ee3f5b96c4cdfa84e5f1342403eb.ctex"]
+source_file="res://assets/hedgehog.png"
+dest_files=["res://.godot/imported/hedgehog.png-faaa05cf009f404bad4c0351575fbeda.ctex"]
 
 [params]
 
