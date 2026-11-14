@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://cqow47bch5ocs"]
+
+[ext_resource type="Texture2D" uid="uid://by1ksbcehcjqr" path="res://Main/sky-hero-hd-7_BcpPCH.png" id="1_eunhr"]
+[ext_resource type="Texture2D" uid="uid://ca0eadakyff0q" path="res://Main/rock-footer-hd-CDp9ci-u.png" id="2_k3v36"]
+[ext_resource type="Texture2D" uid="uid://c8d1ixbaqojn4" path="res://Main/rock-route-hem-hd-DTfXrVIh.png" id="3_liyct"]
+[ext_resource type="Texture2D" uid="uid://crftqtff18npv" path="res://Main/New Ghost Og.png" id="4_ib3t1"]
+[ext_resource type="Script" uid="uid://b3glabh3gh6aj" path="res://Main/new_ghost_og.gd" id="5_ib3t1"]
+[ext_resource type="Texture2D" uid="uid://cf0qvfywt82kn" path="res://Home/cat.png" id="5_liyct"]
+[ext_resource type="Script" uid="uid://cjjdatcjh63kr" path="res://Main/cat.gd" id="6_ib3t1"]
+
+[node name="Node2D" type="Node2D" unique_id=342006584]
+
+[node name="SkyHeroHd7BcpPch" type="Sprite2D" parent="." unique_id=707572443]
+position = Vector2(586.00006, 327)
+scale = Vector2(0.43927556, 0.462766)
+texture = ExtResource("1_eunhr")
+
+[node name="RockFooterHdCDp9CiU" type="Sprite2D" parent="." unique_id=1205045788]
+position = Vector2(773, 523)
+scale = Vector2(0.7405008, 0.4089355)
+texture = ExtResource("2_k3v36")
+
+[node name="RockRouteHemHdDTfXrVIh" type="Sprite2D" parent="." unique_id=1736360939]
+position = Vector2(748, -68)
+scale = Vector2(0.95614344, 0.5148438)
+texture = ExtResource("3_liyct")
+
+[node name="NewGhostOg" type="Sprite2D" parent="." unique_id=1532419674 node_paths=PackedStringArray("target")]
+position = Vector2(122.00006, 418)
+scale = Vector2(0.27734375, 0.296875)
+texture = ExtResource("4_ib3t1")
+script = ExtResource("5_ib3t1")
+target = NodePath("../Cat")
+
+[node name="Cat" type="Sprite2D" parent="." unique_id=1330301068]
+position = Vector2(607, 352)
+texture = ExtResource("5_liyct")
+script = ExtResource("6_ib3t1")
