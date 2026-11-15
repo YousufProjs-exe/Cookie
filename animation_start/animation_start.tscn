@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://c27avtm6p1yhd"]
 
 [ext_resource type="Script" uid="uid://b2tuft4d4ibuk" path="res://animation_start/animation_start.gd" id="1_mw6ay"]
-[ext_resource type="Texture2D" uid="uid://cclgmbeo7tyei" path="res://assets/images (1).jpg" id="2_3tyna"]
+[ext_resource type="Texture2D" uid="uid://cclgmbeo7tyei" path="res://assets/black.jpg" id="2_3tyna"]
 [ext_resource type="Texture2D" uid="uid://b034hsl385r38" path="res://assets/bushes-1.webp" id="3_h0k2v"]
 [ext_resource type="Texture2D" uid="uid://bxi7r7bsnvuoc" path="res://assets/nav-banner.webp" id="4_5x45e"]
 [ext_resource type="Texture2D" uid="uid://dfj4hvhvkv1x6" path="res://assets/hero-foreground.webp" id="5_0vvln"]
@@ -106,10 +106,10 @@ scale = Vector2(0.81471, 1)
 texture = ExtResource("5_0vvln")
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1595064180]
-position = Vector2(-69, 522)
+position = Vector2(-74, 530)
 scale = Vector2(0.28472215, 0.28606555)
 sprite_frames = SubResource("SpriteFrames_56u7t")
-frame_progress = 0.06730623
+frame_progress = 0.68415344
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite2D2" unique_id=285290497]
 root_node = NodePath("")
@@ -118,8 +118,13 @@ root_node = NodePath("")
 position = Vector2(-496.00003, 362)
 scale = Vector2(0.3622748, 0.5322692)
 sprite_frames = SubResource("SpriteFrames_6yxu1")
-frame_progress = 0.5053753
+frame_progress = 0.7075777
 flip_h = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="AnimatedSprite2D3" unique_id=2038326307]
 root_node = NodePath("")
+
+[node name="NavBanner2" type="Sprite2D" parent="." unique_id=1230586434]
+position = Vector2(1054.0001, 736.00006)
+rotation = -4.537856
+texture = ExtResource("4_5x45e")

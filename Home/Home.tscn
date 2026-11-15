@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://5wil3lcrxawv" path="res://assets/hero-bg-no-sticky-tree.png" id="1_08a7v"]
 [ext_resource type="Texture2D" uid="uid://cf0qvfywt82kn" path="res://assets/cat.png" id="2_55kc7"]
-[ext_resource type="Texture2D" uid="uid://dj1cljptqvtou" path="res://assets/New Ghost Og.png" id="3_fs37c"]
+[ext_resource type="Texture2D" uid="uid://crftqtff18npv" path="res://assets/New Ghost Og.png" id="3_fs37c"]
 [ext_resource type="Texture2D" uid="uid://cifob1jcl1q22" path="res://assets/haven-logo-color.png" id="4_f516x"]
 
 [sub_resource type="GDScript" id="GDScript_nkidh"]
@@ -28,12 +28,6 @@ func _on_Settings_pressed():
 	
 func _on_exit_pressed():
 	pass # Replace with function body.
-"
-
-[sub_resource type="GDScript" id="GDScript_4cy11"]
-script/source = "extends Button
-func _on_pressed():
-	print(\"not today\");
 "
 
 [sub_resource type="GDScript" id="GDScript_u44n3"]
@@ -682,14 +676,18 @@ cache/0/40/0/glyphs/34/texture_idx = 0
 script/source = "extends Button
 func _on_pressed():
 	get_tree().quit();
+
+
+func _on_start_pressed() -> void:
+	pass # Replace with function body.
 "
 
 [node name="Node2D" type="Node2D" unique_id=1153084687]
 script = SubResource("GDScript_nkidh")
 
 [node name="HeroBgNoStickyTree" type="Sprite2D" parent="." unique_id=2013492561]
-position = Vector2(574.00006, 302)
-scale = Vector2(0.87395823, 0.6843137)
+position = Vector2(588, 328)
+scale = Vector2(0.88697904, 0.6843137)
 texture = ExtResource("1_08a7v")
 
 [node name="Cat" type="Sprite2D" parent="." unique_id=876466229]
@@ -706,19 +704,9 @@ text = "Save Daven
 "
 script = SubResource("GDScript_f7u13")
 
-[node name="Settings" type="Button" parent="." unique_id=1291481093]
-offset_left = 1071.0
-offset_top = 8.0
-offset_right = 1141.0
-offset_bottom = 39.0
-text = "Settings"
-script = SubResource("GDScript_4cy11")
-
-[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=2018935880]
-
-[node name="NewGhostOg" type="Sprite2D" parent="CharacterBody2D" unique_id=556762948]
+[node name="NewGhostOg" type="Sprite2D" parent="." unique_id=556762948]
 position = Vector2(1133.0001, 404.99997)
-rotation = -0.45204026
+rotation = -0.45204023
 scale = Vector2(0.22622028, 0.22459893)
 texture = ExtResource("3_fs37c")
 script = SubResource("GDScript_u44n3")
@@ -755,5 +743,5 @@ offset_bottom = 628.0
 text = "By Yousuf and Tanveer @Haven-Hyderabad"
 
 [connection signal="pressed" from="Start" to="Start" method="_on_pressed"]
-[connection signal="pressed" from="Settings" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Start" to="Exit" method="_on_start_pressed"]
 [connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
