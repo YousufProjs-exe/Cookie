@@ -1,6 +1,7 @@
 # Daven 
+
 - Save him 
-2 player game based in Haven about saving Daven from a bad Ghost !!!! 
+- 2 player game based in Haven about saving Daven from a bad Ghost !!!! 
 
 ![home](./screenshots/home.png)
 
@@ -11,7 +12,7 @@ and started chasing him across Haven
 Mission: Save Daven and Haven !!
 `remeber that Ghost can Fly and pass through Walls using his intangibility !!!`
 
-Play on Web link itch [itch](https://1m8anana.itch.io/daven)
+Play on WEB [itch](https://1m8anana.itch.io/daven)
 
 ## Levels 
 
@@ -43,6 +44,7 @@ remember Ghost is Slower than Daven but Ghost uses his `Intangibility to pass th
 - left SHIFT - use intangibilty 
 
 ## Features 
+
 - Multiple Maps
 - A Training Session(10 sec)
 - Scence shift when Daven Wins
@@ -55,6 +57,7 @@ remember Ghost is Slower than Daven but Ghost uses his `Intangibility to pass th
 - Pinterest for simple reference of ghost
 
 ## AI Contribution 
+
 Only to connect scences and Ghost Intangibility 
 and Debugging: 
 	- Loading Animation
