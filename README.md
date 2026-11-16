@@ -18,10 +18,10 @@ Play on Web link itch [itch](https://1m8anana.itch.io/daven)
 - Traning session of 10sec 
 ![training](./screenshots/training.png)
 
-- Level 1 
+- Level 1 - can respwan 
 ![level_1](./screenshots/level_1.png)
 
-- Level 2 
+- Level 2 - HARD-CORE (either Ghost or Daven Win)
 ![level-2](./screenshots/level_2.png)
 
 ## Loading 
