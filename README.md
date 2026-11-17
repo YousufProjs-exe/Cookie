@@ -48,7 +48,7 @@ remember Ghost is Slower than Daven but Ghost uses his `Intangibility to pass th
 - Multiple Maps
 - A Training Session(10 sec)
 - Scence shift when Daven Wins
-- 2_player
+- 2 player ( Multiplayer )
 - Multiple Maps(2 for now)
 
 ## Assets 
@@ -56,6 +56,15 @@ remember Ghost is Slower than Daven but Ghost uses his `Intangibility to pass th
 - Cresent Repo (for training session)
 - Pinterest for simple reference of ghost
 
+
+# Updates coming 
+- Single Player
+- better Training Session
+- **Tag System**
+- **Ghost Story** Release 
+- and some secrets
+
+  
 ## AI Contribution 
 
 Only to connect scences and Ghost Intangibility 
